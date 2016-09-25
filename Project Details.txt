@@ -1,0 +1,47 @@
+
+				*Group DETAILS*
+1. AVINASH GHATGE(BECOA144)
+2. VIJAY JADHAV(BECOA152)
+3. AISHWARYA GOTE(BECOA147)
+4. KALYANI KAMBLE(BECOA164)		
+		
+
+				*TABLE DETAILS*
+1.JOBS(COMPANYNAME,ROLE,LOCATION,NOOFPOSTS,LASTDATE,CODE)
+2.LOGIN(ID,PASSWORD)
+3.LOGINEMP(ID,PASSWORD)
+4.JOBAPPLIED(ID,CODE)
+5.LOGINSTAFF(ID,PASSWORD)
+6.REGISTER(FIRSTNAME,LASTNAME,ID,PASSWORD,EMAIL,MOBILE,BIRTHDAY,GENDER,DEGREE,PASSYEAR,UNIVERSITY,SECURITYQ,SECURITYA)
+7.REGISTEREMP(FIRSTNAME,LASTNAME,ID,PASSWORD,EMAIL,MOBILE,BIRTHDAY,GENDER)
+
+
+
+				*PROJECT DETAILS*
+Number of Users:1.Student;2.Employee;3.Administrator
+
+Functions of Users:
+1.Student:Can Register on ALUM_JOBS;
+	  Login/Logout to his/her account on ALUM_JOBS;
+	  Can Change password if he/she forgets password
+	  Update his/her Profile/Password;
+	  Apply for Job directly from his/her Account on ALUM_JOBS;
+	  View his/her Applied Jobs;
+
+2.Employee:Can View Job Posts
+	   Can post a new Job
+	   Can Delete a Job Post
+	   Can View Jobs Applied by Student
+	   Can Update his/her profile
+
+3.Administrator/Career Staff:
+	   Can add New Employee
+	   Can delete Employee
+	   Can add New User(Student)
+	   Can delete User(Student)
+	   Can View Job Posts
+	   Can post a new Job
+	   Can Delete a Job Post
+	   Can View Jobs Applied by Student	
+
+
